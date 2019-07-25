@@ -1,7 +1,7 @@
 # SBagentpool
 
-- [x] 励志成为
-# SpringCloud 史上最全的Helloword 项目
+- [x] 没必要在意是否已经存在了的
+# Python shi上最不专注抓取代理而在于管理的 py代理池 项目
 
 ------
 
