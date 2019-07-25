@@ -7,25 +7,11 @@
 ———— 最不专注抓取代理而专注于管理的 py代理池 项目
 
 
-**现已集成的SpringCloud组件如下：**
+**直接谈一下项目吧，不聊技术（反正也没人看代码）：**
 
+首先先说代理的存储方式吧，储存在redis中。
 
-> * Eureka
-> * Feign
-> * Zuul
-> * Hystrix
-> * Spring Cloud Config
-> * Spring Cloud Bus
-> * Spring Cloud Sleuth
-> * Ribbon
-> * Turbine
-> * Dashboard
-
-其他集成：
-
-> * Redis
-> * RocketMq
-> * mysql
+所有代理的信息都只存放在一个有序集合（SortedSet），一个哈希表(Hash)，一个链表（List）中。
 
 
 
